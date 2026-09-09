@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>KONOHA SELECT | コノハのおすすめセレクトショップ</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,70 +17,147 @@
     <p>コノハのおすすめセレクトショップ</p>
 
     <nav>
-      <a href="#">HOME</a>
+      <a href="#home">HOME</a>
       <a href="#products">PRODUCTS</a>
       <a href="#about">ABOUT</a>
       <a href="#contact">CONTACT</a>
-      <a href="#">🛒 CART</a>
+      <a href="#cart">🛒 CART</a>
     </nav>
   </header>
 
+
   <main>
 
-    <section class="hero">
-      <p>COZY LIFE WITH KONOHA</p>
-      <h2>コノハが選んだ、<br>毎日をちょっと楽しくするもの。</h2>
-      <a href="#products">商品を見る</a>
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-text">
+        <p>COZY LIFE WITH KONOHA</p>
+
+        <h2>
+          コノハが選んだ、<br>
+          毎日をちょっと<br>
+          楽しくするもの。
+        </h2>
+
+        <a href="#products">商品を見る</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="../img/konoha.0830.1.PNG"
+          alt="コノハが走っている写真">
+      </div>
+
     </section>
 
+
+    <!-- PRODUCTS -->
     <section id="products">
-      <h2>RECOMMENDED ITEMS</h2>
-      <p>コノハのおすすめアイテム</p>
 
-      <article>
-        <img src="https://placehold.co/400x400" alt="ふわふわベッド">
-        <h3>ふわふわペットベッド</h3>
-        <p>¥4,980</p>
-        <button>カートに入れる</button>
-      </article>
+      <div class="section-title">
+        <p>RECOMMENDED ITEMS</p>
+        <h2>コノハのおすすめ</h2>
+      </div>
 
-      <article>
-        <img src="https://placehold.co/400x400" alt="ナチュラルマグ">
-        <h3>ナチュラルマグカップ</h3>
-        <p>¥1,680</p>
-        <button>カートに入れる</button>
-      </article>
 
-      <article>
-        <img src="https://placehold.co/400x400" alt="お散歩バッグ">
-        <h3>おさんぽトートバッグ</h3>
-        <p>¥3,280</p>
-        <button>カートに入れる</button>
-      </article>
+      <div class="product-grid">
 
-      <article>
-        <img src="https://placehold.co/400x400" alt="アロマキャンドル">
-        <h3>ウッド系アロマキャンドル</h3>
-        <p>¥2,480</p>
-        <button>カートに入れる</button>
-      </article>
+        <article class="product-card">
+          <img
+            src="https://placehold.co/600x600/e9e4dc/555?text=PET+BED"
+            alt="ふわふわペットベッド">
+
+          <p class="category">DOG & PET</p>
+          <h3>ふわふわペットベッド</h3>
+          <p class="price">¥4,980</p>
+
+          <button>カートに入れる</button>
+        </article>
+
+
+        <article class="product-card">
+          <img
+            src="https://placehold.co/600x600/e9e4dc/555?text=WALK+BAG"
+            alt="おさんぽトートバッグ">
+
+          <p class="category">DOG & PET</p>
+          <h3>おさんぽトートバッグ</h3>
+          <p class="price">¥3,280</p>
+
+          <button>カートに入れる</button>
+        </article>
+
+
+        <article class="product-card">
+          <img
+            src="https://placehold.co/600x600/e9e4dc/555?text=MUG"
+            alt="ナチュラルマグカップ">
+
+          <p class="category">LIFE STYLE</p>
+          <h3>ナチュラルマグカップ</h3>
+          <p class="price">¥1,680</p>
+
+          <button>カートに入れる</button>
+        </article>
+
+
+        <article class="product-card">
+          <img
+            src="https://placehold.co/600x600/e9e4dc/555?text=CANDLE"
+            alt="アロマキャンドル">
+
+          <p class="category">INTERIOR</p>
+          <h3>ウッド系アロマキャンドル</h3>
+          <p class="price">¥2,480</p>
+
+          <button>カートに入れる</button>
+        </article>
+
+      </div>
 
     </section>
 
+
+    <!-- ABOUT -->
     <section id="about">
-      <h2>ABOUT KONOHA SELECT</h2>
-      <p>
-        愛犬コノハと暮らす毎日の中から、
-        「これがあったらちょっと嬉しい」を集めた
-        小さなセレクトショップです。
+
+      <p>ABOUT KONOHA SELECT</p>
+
+      <h2>
+        コノハと暮らす毎日から、<br>
+        「あったら嬉しい」を。
+      </h2>
+
+      <p class="about-text">
+        愛犬コノハとの暮らしの中から、
+        毎日をちょっと楽しくしてくれるアイテムを
+        セレクトした小さなショップです。
       </p>
+
+    </section>
+
+
+    <!-- CART -->
+    <section id="cart" class="cart-section">
+
+      <p>CART</p>
+      <h2>ショッピングカート</h2>
+
+      <div class="cart-box">
+        <p>カートに商品はありません。</p>
+      </div>
+
     </section>
 
   </main>
 
+
   <footer id="contact">
-    <p>&copy; 2026 KONOHA SELECT</p>
+    <p>KONOHA SELECT</p>
+    <small>&copy; 2026 KONOHA SELECT</small>
   </footer>
+
 
 </body>
 </html>
