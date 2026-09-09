@@ -280,8 +280,6 @@ footer small {
   opacity: 0.6;
 }
 
-/* MOBILE */
-
 @media (max-width: 700px) {
 
   header {
@@ -290,7 +288,6 @@ footer small {
 
   header h1 {
     font-size: 22px;
-    letter-spacing: 0.14em;
   }
 
   header p {
@@ -298,83 +295,89 @@ footer small {
   }
 
   nav {
-    margin-top: 15px;
-    gap: 14px 20px;
+    gap: 14px 18px;
   }
 
   nav a {
-    font-size: 10px;
+    font-size: 9px;
   }
+
 
   /* HERO */
 
   .hero {
-    height: 520px;
+    height: 480px;
   }
 
   .hero-image img {
-    object-position: 62% center;
+    object-position: 60% center;
   }
 
   .hero-image::after {
     background: linear-gradient(
       180deg,
       rgba(255,255,255,0.05) 0%,
-      rgba(255,255,255,0.15) 35%,
-      rgba(255,255,255,0.8) 75%,
+      rgba(255,255,255,0.1) 35%,
+      rgba(255,255,255,0.75) 72%,
       rgba(255,255,255,0.95) 100%
     );
   }
 
   .hero-text {
     width: 100%;
-    padding: 0 8%;
+    padding: 0 7% 35px;
     align-self: flex-end;
-    padding-bottom: 45px;
   }
 
   .hero-text > p {
     font-size: 9px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .hero-text h2 {
-    font-size: 28px;
-    line-height: 1.55;
-    letter-spacing: 0.05em;
-    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-bottom: 18px;
   }
 
   .hero-text a {
-    padding: 10px 25px;
+    padding: 9px 22px;
     font-size: 10px;
   }
+
 
   /* PRODUCTS */
 
   #products {
-    padding: 65px 5%;
+    padding: 60px 5%;
   }
 
   .section-title {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
 
   .section-title h2 {
     font-size: 23px;
   }
 
+  /* スマホでも2列 */
+
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 14px;
   }
 
   .product-card {
-    padding-bottom: 18px;
+    padding-bottom: 16px;
   }
 
   .product-card img {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+  }
+
+  .product-card .category {
+    font-size: 8px;
   }
 
   .product-card h3 {
@@ -387,40 +390,42 @@ footer small {
   }
 
   .product-card button {
-    padding: 7px 12px;
+    padding: 7px 10px;
     font-size: 9px;
   }
+
 
   /* ABOUT */
 
   #about {
-    padding: 65px 8%;
+    padding: 60px 7%;
   }
 
   #about h2 {
     font-size: 22px;
-    line-height: 1.6;
   }
 
   .about-text {
     font-size: 12px;
   }
 
+
   /* CART */
 
   .cart-section {
-    padding: 65px 5%;
+    padding: 60px 5%;
   }
 
   .cart-box {
     padding: 35px 20px;
   }
 
+
   /* FOOTER */
 
   footer {
     padding: 30px 20px;
   }
-}
 
+}
 
