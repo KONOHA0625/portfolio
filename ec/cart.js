@@ -144,3 +144,19 @@ function clearCart() {
 
 
 displayCart();
+
+function displayCheckoutTotal() {
+  const checkoutTotal = document.getElementById("checkout-total");
+
+  if (!checkoutTotal) return;
+
+  const cart = getCart();
+
+  const total = cart.reduce((sum, item) => {
+    return sum + item.price * item.quantity;
+  }, 0);
+
+  checkoutTotal.textContent = `¥${total.toLocaleString()}`;
+}
+
+displayCheckoutTotal();
