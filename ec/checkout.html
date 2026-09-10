@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>購入手続き | KONOHA SELECT</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>KONOHA SELECT</h1>
+    <p>コノハのおすすめセレクトショップ</p>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="index.html#products">PRODUCTS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="index.html#contact">CONTACT</a>
+      <a href="cart.html">🛒 CART</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="checkout-page">
+
+      <p class="checkout-label">CHECKOUT</p>
+
+      <h2>購入手続き</h2>
+
+      <form id="checkout-form">
+
+        <div class="form-group">
+          <label for="name">お名前</label>
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="山田 花子">
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス</label>
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="example@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="address">お届け先住所</label>
+          <input
+            type="text"
+            id="address"
+            required
+            placeholder="東京都〇〇区〇〇1-2-3">
+        </div>
+
+        <div class="checkout-summary">
+          <span>お支払い金額</span>
+          <strong id="checkout-total">¥0</strong>
+        </div>
+
+        <button type="submit" class="checkout-button">
+          注文を確定する
+        </button>
+
+      </form>
+
+      <a href="cart.html" class="back-link">
+        ← カートに戻る
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>KONOHA SELECT</p>
+    <small>&copy; 2026 KONOHA SELECT</small>
+  </footer>
+
+
+  <script src="cart.js?v=2"></script>
+
+</body>
+</html>
