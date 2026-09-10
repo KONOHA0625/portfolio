@@ -59,10 +59,16 @@
             <option>3</option>
           </select>
         </div>
-
-        <button class="add-cart">
-          カートに入れる
-        </button>
+  <button
+  class="add-cart"
+  onclick="addToCart({
+    name: 'ふわふわペットベッド',
+    price: 4980,
+    quantity: Number(document.getElementById('quantity').value)
+  })">
+  カートに入れる
+</button>
+        
 
         <a href="index.html#products" class="back-link">
           ← 商品一覧に戻る
