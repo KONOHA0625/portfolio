@@ -64,3 +64,9 @@ function displayCart() {
 }
 
 displayCart();
+
+function clearCart() {
+  localStorage.removeItem(cartKey);
+  displayCart();
+  alert("カートを空にしました！");
+}
