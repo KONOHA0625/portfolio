@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ショッピングカート | KONOHA SELECT</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>KONOHA SELECT</h1>
+    <p>コノハのおすすめセレクトショップ</p>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="index.html#products">PRODUCTS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="index.html#contact">CONTACT</a>
+      <a href="cart.html">🛒 CART</a>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <section class="cart-page">
+
+      <p class="cart-label">SHOPPING CART</p>
+
+      <h2>ショッピングカート</h2>
+
+      <div id="cart-items"></div>
+
+      <div class="cart-total">
+        <span>合計</span>
+        <strong id="cart-total">¥0</strong>
+      </div>
+
+      <button class="checkout-button">
+        購入手続きへ
+      </button>
+
+      <a href="index.html#products" class="back-link">
+        ← 商品一覧に戻る
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>KONOHA SELECT</p>
+    <small>&copy; 2026 KONOHA SELECT</small>
+  </footer>
+
+
+  <script src="cart.js"></script>
+
+</body>
+</html>
