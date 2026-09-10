@@ -643,3 +643,103 @@ footer small {
   }
 
 }
+
+/* CHECKOUT PAGE */
+
+.checkout-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 5%;
+}
+
+.checkout-label {
+  color: #999;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
+}
+
+.checkout-page h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  margin-bottom: 45px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-size: 13px;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #777;
+}
+
+.checkout-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 5px;
+  margin-top: 35px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-summary strong {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.checkout-page .checkout-button {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  padding: 16px;
+  background: #333;
+  color: #fff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.checkout-page .checkout-button:hover {
+  background: #555;
+}
+
+@media (max-width: 700px) {
+
+  .checkout-page {
+    padding: 60px 6%;
+  }
+
+  .checkout-page h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .form-group input {
+    padding: 12px;
+  }
+
+  .checkout-summary strong {
+    font-size: 19px;
+  }
+
+}
