@@ -90,6 +90,18 @@
 
 
   <script src="cart.js?v=2"></script>
+ <script src="cart.js?v=2"></script>
 
+<script>
+  const checkoutForm = document.getElementById("checkout-form");
+
+  checkoutForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    localStorage.removeItem("konohaCart");
+
+    window.location.href = "complete.html";
+  });
+</script>
 </body>
 </html>
