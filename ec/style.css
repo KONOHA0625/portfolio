@@ -743,3 +743,67 @@ footer small {
   }
 
 }
+
+/* COMPLETE PAGE */
+
+.complete-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 140px 5%;
+  text-align: center;
+}
+
+.complete-label {
+  color: #999;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  margin-bottom: 20px;
+}
+
+.complete-page h2 {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  margin-bottom: 30px;
+}
+
+.complete-message {
+  color: #666;
+  font-size: 13px;
+  line-height: 2;
+  margin-bottom: 45px;
+}
+
+.complete-button {
+  display: inline-block;
+  padding: 14px 45px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.complete-button:hover {
+  background: #555;
+}
+
+@media (max-width: 700px) {
+
+  .complete-page {
+    padding: 90px 6%;
+  }
+
+  .complete-page h2 {
+    font-size: 23px;
+  }
+
+  .complete-message {
+    font-size: 12px;
+  }
+
+  .complete-button {
+    width: 100%;
+  }
+
+}
