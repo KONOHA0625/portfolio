@@ -622,6 +622,10 @@ footer small {
     margin-bottom: 35px;
   }
 
+  <a href="checkout.html" class="checkout-button">
+  購入手続きへ
+</a>
+
   .cart-item {
     padding: 20px 5px;
   }
