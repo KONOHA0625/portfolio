@@ -21,7 +21,7 @@ function addToCart(product) {
 
   saveCart(cart);
 
-  alert("カートに追加しました！");
+  alert("カートに追加しました。");
 }
 
 function getCartCount() {
